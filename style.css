@@ -1,0 +1,274 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+/* Header */
+  .search-box {
+      border-radius: 50px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .search-box input {
+      border: none;
+      outline: none;
+      padding: 10px 15px;
+    }
+    .search-box button {
+      border-radius: 50%;
+      padding: 10px 15px;
+    }
+    .icon-btn {
+      position: relative;
+      margin-left: 15px;
+      font-size: 1.4rem;
+      color: #333;
+    }
+    .icon-btn .badge {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+      font-size: 0.7rem;
+      background: #0d6efd;
+    }
+
+
+    .icon-btn:hover{
+        color: #0d6efd;
+    }
+
+
+
+
+
+
+
+     /* Navbar custom styles */
+    .navbar {
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 0.8rem 2rem;
+    }
+
+    .navbar-nav {
+      gap: 1.8rem; /* spacing between menu items */
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 15px;
+      font-weight: 500;
+      color: #222 !important;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: #0d6efd !important; /* Bootstrap blue for active */
+    }
+
+    /* Dropdown menu tweaks */
+    .dropdown-menu {
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      padding: 0.5rem 0;
+      min-width: 200px;
+    }
+
+    .dropdown-item {
+      font-size: 14px;
+      padding: 0.5rem 1rem;
+      color: #333;
+    }
+
+    .dropdown-item:hover {
+      background-color: #f8f9fa;
+      color: #0d6efd;
+    }
+
+    /* Megamenu tweaks */
+    .dropdown-menu.megamenu {
+      width: 600px;
+      padding: 1rem 1.5rem;
+    }
+
+    .megamenu .row > div {
+      padding: 0 1rem;
+    }
+
+    .megamenu h6 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .megamenu a {
+      display: block;
+      font-size: 14px;
+      color: #333;
+      padding: 0.3rem 0;
+      text-decoration: none;
+    }
+
+    .megamenu a:hover {
+      color: #0d6efd;
+    }
+
+
+/* End of Header */
+
+.hero .new{
+    font-size: 0.7em;
+    background-color: #dae5f5;
+    color:#2a4bb8;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.hero .dis{
+    font-size: 3.5rem;
+    color: #023c6e;
+}
+
+.hero .dis span{
+    color:#094cb8 ;
+    text-decoration: underline #dae5f5;
+}
+
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.image img{
+    height: 600px;
+    width: 200px;
+}
+
+.service{
+    background-color: #f5f8fc;
+}
+
+
+.fly{
+    transition: transform 0.5s;
+}
+
+.fly:hover{
+    transform: translate(0px,-5px);
+
+    h3{
+        color: #094cb8;
+    }
+}
+
+.card{
+    width: 200px;
+    /* height: 200px; */
+    padding-top: 20px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.card img{
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+
+.shadow{
+    max-width: 280px;
+    height: 480px;
+    overflow: hidden;
+}
+.sllst-img{
+    position: relative;
+    padding: 20px;
+    object-fit: contain;
+    max-height: 300px;
+    overflow: hidden;
+}
+.sllst-img img{
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.menu a:active{
+    background-color: #094cb8;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: #c0d7ea;
+    color: #094cb8;
+}
+
+
+.view a{
+    display: inline-block;
+    color: white;
+    background-color: #094cb8;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+.newsletter{
+    background-color: #f0f4fa;
+
+    h2{
+        color: #023c6e;
+    }
+
+    input{
+        padding:15px;
+        width: 40%;
+        border-radius: 40px;
+        border: none;
+
+    }
+/* 
+    @media  and (min-width:480px) {
+        .newsletter{
+            button{
+                width: 60%;
+            }
+        }
+    } */
+
+    button{
+        padding:15px;  
+        border-radius: 40px;
+        background-color: #094cb8;
+        color: white;
+        border: none;
+
+    }
+}

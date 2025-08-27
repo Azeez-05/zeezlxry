@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeezluxury</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="shortcut icon" href="Images/zeez.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+</head>
+
+<body class="">
+    <header class="py-3 ">
+        <div class="px-5 d-flex justify-content-between align-items-center border-bottom pb-3   ">
+            <!-- Logo -->
+            <h2 class="m-0 fw-bold text-primary">Zeezlxry</h2>
+
+            <!-- Search -->
+            <form class="d-flex flex-grow-1 mx-4 justify-content-center">
+                <div class="input-group search-box w-50">
+                    <input type="text" class="form-control" placeholder="Search for products">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="bi bi-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+
+            <!-- Icons -->
+            <div class="d-flex align-items-center">
+                <a href="#" class="icon-btn"><i class="bi bi-person"></i></a>
+                <a href="#" class="icon-btn">
+                    <i class="bi bi-heart"></i>
+                    <span class="badge rounded-pill">0</span>
+                </a>
+                <a href="#" class="icon-btn">
+                    <i class="bi bi-cart"></i>
+                    <span class="badge rounded-pill">3</span>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Product Details</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Checkout</a></li>
+
+                        <!-- Normal Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" data-bs-toggle="dropdown">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                <li><a class="dropdown-item" href="#">Item 3</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Megamenu 1 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="megamenu1" data-bs-toggle="dropdown">
+                                Megamenu 1
+                            </a>
+                            <div class="dropdown-menu megamenu p-3" aria-labelledby="megamenu1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h6>Category A</h6>
+                                        <a href="#">Link A1</a>
+                                        <a href="#">Link A2</a>
+                                        <a href="#">Link A3</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6>Category B</h6>
+                                        <a href="#">Link B1</a>
+                                        <a href="#">Link B2</a>
+                                        <a href="#">Link B3</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6>Category C</h6>
+                                        <a href="#">Link C1</a>
+                                        <a href="#">Link C2</a>
+                                        <a href="#">Link C3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Megamenu 2 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="megamenu2" data-bs-toggle="dropdown">
+                                Megamenu 2
+                            </a>
+                            <div class="dropdown-menu megamenu p-3" aria-labelledby="megamenu2">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6>Category X</h6>
+                                        <a href="#">Link X1</a>
+                                        <a href="#">Link X2</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Category Y</h6>
+                                        <a href="#">Link Y1</a>
+                                        <a href="#">Link Y2</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <div class="hero my-5 container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hero-content">
+                    <p class=" w-25 new">New Collection 2025</p>
+                    <h1 class="dis nunito">Discover Stylish <span> Fashion </span>For Every Season</h1>
+                    <p class="lead">Discover timeless clothing designed for confidence, comfort, and everyday luxury.
+                        Whether casual or classy, we’ve got pieces that make you stand out without trying too hard.</p>
+                    <div>
+                        <button class="btn btn-primary btn-sm">Shop Now <span
+                                class="fas fa-arrow-right"></span></button>
+                        <button class="btn btn-outline-secondary btn-sm ms-2">Explore Collection</button>
+                    </div>
+
+                    <ul class="list-inline mt-3">
+                        <li class="list-inline-item"> <span class="bi bi-truck text-primary"></span> Free Shipping</li>
+                        <li class="list-inline-item"><span class="bi bi-shield-check text-primary"></span> Secure
+                            Payment</li>
+                        <li class="list-inline-item"> <span class="bi bi-arrow-repeat text-primary"></span> Easy Returns
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="Images/green.png" alt="" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div class="service">
+        <div class="row py-5">
+            <div class="col-md-3 text-center fly">
+                <h3 class="bi bi-truck"></h3>
+                <h5>Free Shipping</h5>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+
+            </div>
+            <div class="col-md-3 text-center fly">
+                <h3 class="bi bi-piggy-bank"></h3>
+                <h5>Money Back Guarantee</h5>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+
+            </div>
+            <div class="col-md-3 text-center fly">
+                <h3 class="bi bi-percent"></h3>
+                <h5>Discount Offers</h5>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+
+            </div>
+            <div class="col-md-3 text-center fly">
+                <h3 class="bi bi-headset"></h3>
+                <h5>24/7 Support</h5>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="serdis container my-5 ">
+        <div class="row justify-content-around">
+            <div class="col-2 text-center card">
+                <img src="Images/suit.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+            </div>
+            <div class="col-2 text-center card">
+                <img src="Images/kid.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+            </div>
+            <div class="col-2 text-center card">
+                <img src="Images/tattoo.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+            </div>
+            <div class="col-2 text-center card">
+                <img src="Images/brown.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+            </div>
+            <div class="col-2 text-center card">
+                <img src="Images/hijab.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+
+            </div>
+            <div class="col-2 text-center card">
+                <img src="Images/suit.png" alt="" class="img-fluid">
+                <p>Full Body Suit</p>
+                <small>5 Product</small>
+            </div>
+        </div>
+    </div>
+    <!-- Best Seller -->
+
+
+    <div class="bstsell container">
+        <h1 class="text-center nunito">Best Seller</h1>
+        <p class="text-center nunito">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+        </p>
+        <div class="row justify-content-around">
+
+            <!-- Item 1 -->
+            <div class="col-md-3 shadow mx-4 my-3">
+                <div class="sllst px-2 ">
+                    <span class="badge bg-primary">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/blue.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-block btn-primary"><i class="bi bi-cart-plus me-2"></i>Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+
+            <div class="col-md-3 shadow mx-4 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">Sale</span>
+                    <div class="sllst-img">
+                        <img src="Images/brown.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-block btn-primary"><i class="bi bi-cart-plus me-2"></i>Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+
+            <div class="col-md-3 shadow mx-4 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/engkid.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-block btn-primary"><i class="bi bi-cart-plus me-2"></i>Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="col-md-3 shadow mx-4 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/green.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-block btn-primary"><i class="bi bi-cart-plus me-2"></i>Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Gallery -->
+
+    <div class="gallery my-5">
+        <div class="menu justify-content-center d-flex">
+            <a href="#" class="mx-2" ac>All</a>
+            <a href="#" class="mx-2">Clothing</a>
+            <a href="#" class="mx-2">Accessories</a>
+            <a href="#" class="mx-2">Electronics</a>
+        </div>
+
+
+
+
+        <div class="row justify-content-center mx-auto container mt-5">
+
+            <!-- Item 1 -->
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2 ">
+                    <span class="badge bg-primary">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/blue.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">Sale</span>
+                    <div class="sllst-img">
+                        <img src="Images/brown.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/engkid.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/green.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Item 1 -->
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2 ">
+                    <span class="badge bg-primary">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/blue.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">Sale</span>
+                    <div class="sllst-img">
+                        <img src="Images/brown.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+
+
+
+            <!-- Item 1 -->
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2 ">
+                    <span class="badge bg-primary">New</span>
+                    <div class="sllst-img">
+                        <img src="Images/blue.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+
+            <div class="col-md-3 shadow mx-2 my-3">
+                <div class="sllst px-2">
+                    <span class="badge bg-danger">Sale</span>
+                    <div class="sllst-img">
+                        <img src="Images/brown.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="sllst-text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>$89.99</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+        </div>
+
+        <div class="mt-5 text-center view">
+            <a href="" class="d-inline-block">View All Products <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+
+
+    <!-- End of Gallery -->
+
+
+    <!-- Newsletter -->
+    <div class="newsletter text-center my-5 py-5">
+        <h2>Join Our Newsletter</h2>
+        <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+        <div class="input-group justify-content-center">
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <!-- End of Newsletter -->
+
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
